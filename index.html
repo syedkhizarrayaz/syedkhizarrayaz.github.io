@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syed Khizar Rayaz · AI Engineer</title>
+  <meta name="description" content="Senior AI & Machine Learning Engineer building agentic AI for banking compliance, payment backends and trading apps. Portfolio, experience, writing and CV." />
+  <meta name="theme-color" content="#070b14" />
+  <meta property="og:title" content="Syed Khizar Rayaz · AI Engineer" />
+  <meta property="og:description" content="Agentic AI for banking compliance, payment backends and trading apps." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://syedkhizarrayaz.github.io/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235eead4'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%23070b14'/%3E%3Cpath d='M32 8 52 20v24L32 56 12 44V20z' fill='none' stroke='url(%23g)' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='7' fill='url(%23g)'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-mark"></span><span>SKR</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-sm" id="nav-cv" href="#" download>CV ↓</a>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <p class="eyebrow reveal"><span class="dot"></span> Available for remote AI engineering roles · UTC+3</p>
+        <h1 class="reveal"><span class="h1-line">Syed Khizar</span><span class="h1-line grad">Rayaz</span></h1>
+        <p class="hero-title reveal" id="hero-title"></p>
+        <p class="hero-tagline reveal" id="hero-tagline"></p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" id="hero-cv" href="#" download>Download CV</a>
+          <a class="btn" href="#projects">See the work</a>
+          <a class="btn btn-ghost" id="hero-github" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <div class="hero-meta reveal">
+          <span>Benchmatrix · AI Engineer</span><span class="sep"></span>
+          <span>OneMoneyWay · Senior AI Consultant</span><span class="sep"></span>
+          <span>MSc AI Engineering · Istanbul Okan</span>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="metrics" id="metrics" aria-label="By the numbers">
+      <div class="metrics-grid" id="metrics-grid"></div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-head reveal">
+        <p class="kicker">01 · Experience</p>
+        <h2>Work that shipped.</h2>
+        <p class="lede">Bank-facing agentic AI, payment rails and trading apps. Numbers come from the project logs, not adjectives.</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <p class="kicker">02 · Projects</p>
+        <h2>Things I built.</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+      </div>
+      <div class="grid" id="project-grid"></div>
+    </section>
+
+    <section class="section" id="writing">
+      <div class="section-head reveal">
+        <p class="kicker">03 · Writing</p>
+        <h2>Lessons from real incidents.</h2>
+        <p class="lede">Reproduced bugs and design rules from production work, written up on Medium and LinkedIn.</p>
+      </div>
+      <div class="writing-list" id="writing-list"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="kicker">04 · About</p>
+          <h2>One doctrine, every system.</h2>
+          <p class="prose">I build AI that banks can audit. The model drafts, deterministic code calculates and decides, a human approves anything governance-consequential, and every value is anchored to its source and written to an append-only, hash-chained log. That rule has shaped everything from a loss-data analysis agent for operational risk to AML alert prioritization and payment-rail integrations.</p>
+          <p class="prose">Outside the bank work I ship end-to-end: Flutter trading apps and brokerage websites for PSX clients, a booking marketplace of my own, and a steady stream of engineering write-ups. I'm currently doing an MSc in Artificial Intelligence Engineering (thesis track) at Istanbul Okan University.</p>
+          <div class="edu" id="edu"></div>
+          <div class="certs" id="certs"></div>
+        </div>
+        <div class="skills reveal" id="skills"></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <p class="kicker">05 · Contact</p>
+        <h2>Let's build something auditable.</h2>
+        <p class="lede">Open to remote AI/ML engineering roles and consulting. Based in Istanbul, originally from Karachi.</p>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Syed Khizar Rayaz</span>
+    <span class="muted">Updated <span id="updated"></span> · built with Three.js, no framework</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
