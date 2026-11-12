@@ -36,7 +36,7 @@ window.SITE_DATA = {
     },
     {
       company: "OneMoneyWay",
-      role: "Senior AI Engineer Consultant · Freelance (European fintech)",
+      role: "AI Consultant · Freelance (European fintech)",
       dates: "Nov 2025 – Present",
       points: [
         "~155 authored commits across 4 repositories in 10 months; ~30.8k lines added to the core banking backend.",
@@ -49,7 +49,7 @@ window.SITE_DATA = {
     {
       company: "Microlinks (Pvt.) Ltd",
       role: "Software Engineer (Application Developer) · Freelance, part-time",
-      dates: "Apr 2026 – Present",
+      dates: "Apr 2026 – Sep 2026",
       points: [
         "FDM Securities brokerage website revamp (CodeIgniter 4, live PSX data for 10 indices), live since 27 Jul 2026 after fixing 12 logged production issues.",
         "StockBazar: ~40-screen React app ported to Flutter (28 screens, 6 platforms), KYC onboarding module and a fully local PaddleOCR CNIC/passport service with ICAO MRZ validation.",
