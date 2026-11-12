@@ -7,6 +7,7 @@ window.SITE_DATA = {
   location: "Istanbul, Türkiye (UTC+3) · from Karachi, Pakistan",
   email: "khizar.rayaz98@gmail.com",
   cv: "Syed_Khizar_Rayaz_CV.pdf",
+  cvShort: "Syed_Khizar_Rayaz_CV_OnePage.pdf",
   links: {
     github: "https://github.com/syedkhizarrayaz",
     linkedin: "https://www.linkedin.com/in/syedkhizarrayaz",

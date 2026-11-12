@@ -9,6 +9,7 @@
   $("#hero-title").textContent = D.title;
   $("#hero-tagline").textContent = D.tagline;
   ["#hero-cv", "#nav-cv"].forEach((s) => { $(s).href = D.cv; });
+  if (D.cvShort) $("#hero-cv-short").href = D.cvShort;
   $("#hero-github").href = D.links.github;
   $("#year").textContent = new Date().getFullYear();
   $("#updated").textContent = D.updated;
@@ -78,8 +79,8 @@
   });
 
   const cl = $("#contact-links");
-  [["Email me", "mailto:" + D.email, "btn-primary"], ["LinkedIn", D.links.linkedin, ""], ["GitHub", D.links.github, ""], ["Medium", D.links.medium, ""], ["Download CV", D.cv, "btn-ghost"]]
-    .forEach(([t, h, c]) => { const a = el("a", "btn " + c, esc(t)); a.href = h; if (h.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; } if (h === D.cv) a.setAttribute("download", ""); cl.appendChild(a); });
+  [["Email me", "mailto:" + D.email, "btn-primary"], ["LinkedIn", D.links.linkedin, ""], ["GitHub", D.links.github, ""], ["Medium", D.links.medium, ""], ["Download CV", D.cv, "btn-ghost"], ["One-page CV", D.cvShort, "btn-ghost"]]
+    .forEach(([t, h, c]) => { const a = el("a", "btn " + c, esc(t)); a.href = h; if (h.startsWith("http")) { a.target = "_blank"; a.rel = "noopener"; } if (h === D.cv || h === D.cvShort) a.setAttribute("download", ""); cl.appendChild(a); });
 
   /* ---------- reveal + count-up (scroll check: anchor jumps never miss) ---------- */
   const pending = Array.from(document.querySelectorAll(".reveal, .metric"));
